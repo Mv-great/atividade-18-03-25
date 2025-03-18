@@ -1,0 +1,38 @@
+header {
+    padding: 100px;
+    text-align: center;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+
+}
+
+nav {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    padding: auto;
+}
+
+article {
+    margin-bottom: auto;
+    padding: auto;
+    border: auto;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
