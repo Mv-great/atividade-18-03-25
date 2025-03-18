@@ -1,5 +1,4 @@
 header {
-    padding: 100px;
     text-align: center;
 
 }
@@ -25,9 +24,7 @@ main {
 }
 
 article {
-    margin-bottom: auto;
-    padding: auto;
-    border: auto;
+    display: flex;
 }
 
 @media (min-width: 768px) {
