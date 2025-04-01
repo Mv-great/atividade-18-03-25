@@ -33,3 +33,34 @@ article {
         flex-wrap: wrap;
     }
 }
+body {
+    font-family: sans-serif;
+}
+
+.item-menu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.item-menu img {
+    max-width: 100%;
+}
+
+.item-menu button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#carrinho {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    float: right;
+}
