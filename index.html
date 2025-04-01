@@ -1,56 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cardápio Interativo</title>
     <link rel="stylesheet" href="style.css">
-<script href="script.js"></script>
 </head>
-<!-- local onde o codigo principal fica -->
 <body>
-     <!-- cabeçalho da pagina -->
     <header>
-        <!-- cabeçalho da seçao -->
         <h1>Restaurante</h1>
-        <img width="70%" src="restaurant-logo-design-vector.jpg" alt="">
-        <!-- seçao da pagina -->
+        <img width="70%" src="restaurant-logo-design-vector.jpg" alt="Logo do Restaurante">
         <nav>
-            <!-- lista nao ordenada -->
             <ul>
-                <!-- item da lista -->
-                <li>
-<!-- elemnto com hyperlink -->
-                    <a href="index.html">Pratos Principais
-
-                    </a>
-                </li>
-                <li>
-                    <a href="sobremesas.html">Sobremesas</a>
-                </li>
+                <li><a href="index.html">Pratos Principais</a></li>
+                <li><a href="sobremesas.html">Sobremesas</a></li>
             </ul>
         </nav>
     </header>
-
-<!-- seçao que representa o "corpo da pagina" -->
     <main>
-     <div id="cardapio">
-        <div id="filtros">
-            <button data-categoria="todos">Todos</button>
-            <button data-categoria="vegetariano">Vegetariano</button>
-            <button data-categoria="sem-gluten">Sem Glúten</button>
+        <div id="cardapio">
+            <div id="filtros">
+                <button data-categoria="todos">Todos</button>
+                <button data-categoria="vegetariano">Vegetariano</button>
+                <button data-categoria="sem-gluten">Sem Glúten</button>
+            </div>
+            <div id="itens-menu"></div>
+            <div id="carrinho">
+                <h2>Carrinho</h2>
+                <ul id="lista-carrinho"></ul>
+                <p>Total: <span id="total-carrinho">R$ 0,00</span></p>
+            </div>
         </div>
-        <div id="itens-menu"></div>
-        <div id="carrinho">
-            <h2>Carrinho</h2>
-            <ul id="lista-carrinho"></ul>
-            <p>Total: <span id="total-carrinho">R$ 0,00</span></p>
-        </div>
-    </div>
-        </article>
-
     </main>
+    <script src="script.js"></script>
 </body>
-
 </html>

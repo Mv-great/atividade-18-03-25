@@ -2,7 +2,7 @@ const itensMenu = [
     { id: 1, nome: "Hambúrguer Clássico", descricao: "Delicioso hambúrguer com queijo e bacon.", preco: 25.00, imagem: "download (1).jpg", categoria: "todos" },
     { id: 2, nome: "Pizza Margherita", descricao: "Pizza com mussarela, tomate e manjericão.", preco: 30.00, imagem: "pizza-caseira-lucas-alencar.webp", categoria: "vegetariano" },
     { id: 3, nome: "Salada Caesar", descricao: "Salada com frango grelhado e molho Caesar.", preco: 20.00, imagem: "download.jpg", categoria: "sem-gluten" },
-    // Adicione mais itens aqui
+
 ];
 
 let carrinho = [];
