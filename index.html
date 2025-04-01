@@ -35,14 +35,19 @@
 
 <!-- seçao que representa o "corpo da pagina" -->
     <main>
-       <!-- seçao para documentos -->
-        <article>
-            <h2><img width="100%" src="baixados.jpg" alt=""></h2>
-            <h3>Macarrao a Bolonhesa</h3>
-            <h4>
-                <p>R$ 15,00</p>
-            </h4>
-
+     <div id="cardapio">
+        <div id="filtros">
+            <button data-categoria="todos">Todos</button>
+            <button data-categoria="vegetariano">Vegetariano</button>
+            <button data-categoria="sem-gluten">Sem Glúten</button>
+        </div>
+        <div id="itens-menu"></div>
+        <div id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <p>Total: <span id="total-carrinho">R$ 0,00</span></p>
+        </div>
+    </div>
         </article>
 
     </main>
